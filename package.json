@@ -1,0 +1,49 @@
+{
+  "name": "react-native-snap-swiper",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "clean": "rimraf dist",
+    "build": "npm run clean && babel lib/ -d dist/"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "16.2.0",
+    "react-native": "0.52.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "22.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.1.4",
+    "react-test-renderer": "16.2.0",
+    "rimraf": "^2.6.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "description": "a react-native snap swiper for ios and android ",
+  "main": "entry.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jys125773/reactNativeSnapSwiper.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "snap",
+    "swiper",
+    "component",
+    "inifinite",
+    "swiper"
+  ],
+  "author": "jys125773",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jys125773/reactNativeSnapSwiper/issues"
+  },
+  "homepage": "https://github.com/jys125773/reactNativeSnapSwiper#readme"
+}

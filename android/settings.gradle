@@ -1,0 +1,3 @@
+rootProject.name = 'reactNativeSnapSwiper'
+
+include ':app'
