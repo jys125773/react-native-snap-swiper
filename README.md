@@ -27,7 +27,7 @@ yarn add react-native-snap-swiper
 ## Props
 
 | Props    | type   | description                                                                                             | required | default                          |
-|:----------|:--------|:---------------------------------------------------------------------------------------------------------|:----------------------------------|:------------|
+|:----------|:--------|:--------------------------------------------------|:----------------------------------|:------------|
 | containerWidth | number | container width | false | Dimensions.get('window').width |
 | cardWidth | number | card width | false | Dimensions.get('window').width * 0.6 |
 | cardHeight | number | card height | false | Dimensions.get('window').width * 0.4 |
