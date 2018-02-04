@@ -31,6 +31,9 @@ yarn add react-native-snap-swiper
 | containerWidth | number | container width | false | Dimensions.get('window').width |
 | cardWidth | number | card width | false | Dimensions.get('window').width * 0.6 |
 | cardHeight | number | card height | false | Dimensions.get('window').width * 0.4 |
+| radio | number | adjacent card dimension ratio | false | 0.8 |
+| initIndex | number | the active card index after component mounted | false | 0 |
+| animateDuration | number | the animate duration once touch release or jump to index | false | 200 |
 
 ## Usage
 
