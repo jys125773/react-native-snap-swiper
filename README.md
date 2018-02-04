@@ -1,4 +1,5 @@
 ## react-native-snap-swiper
+
 React native snap swiper for ios & android.
 
 ![](https://github.com/jys125773/reactNativeSnapSwiper/blob/master/swiper.gif)
@@ -9,8 +10,19 @@ React native snap swiper for ios & android.
 npm install react-native-snap-swiper --save
 #OR
 yarn add react-native-snap-swiper
-
 ```
+
+
+## Overview
+
+- [x] Scale animation
+- [x] TranslateX animation 
+- [x] Inifinite loop
+- [x] Show buttons
+- [x] Show dots
+- [x] Swipe event callback
+- [x] Jump to a card index 
+- [x] Swipe to the previous or next card
 
 ## Usage
 
