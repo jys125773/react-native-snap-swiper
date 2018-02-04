@@ -34,6 +34,17 @@ yarn add react-native-snap-swiper
 | radio | number | adjacent card dimension ratio | false | 0.8 |
 | initIndex | number | the active card index after component mounted | false | 0 |
 | animateDuration | number | the animate duration once touch release or jump to index | false | 200 |
+| autoplay | bool | autoplay | false | true |
+| autoplayInterval | number | autoplay interval | fasle | 3600 |
+| autoplayDirection | true | autoplay direction, false equal to reverse | fasle | true |
+| dotsContainerWidth | number | dots continer width | false | cardWidth * 0.66 |
+| dotsContainerBottom | number | dots position bottom relative to swiper container | fasle | 10 |
+| dotColor | string | dot color | false | 'rgba(0,0,0,.2)' |
+| activeDotColor | string | active dot color | fasle | '#007aff'|
+| dots | bool | show dots | false | true |
+| showsButtons | bool | show buttons | fasle | true |
+| onIndexChanged | function(index:number) | animtion end callback | fasle | ()=>{} |
+| children | array | array of react-native elements,must more than 5 | true | [] |
 
 ## Usage
 
