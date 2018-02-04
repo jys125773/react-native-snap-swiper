@@ -24,6 +24,12 @@ yarn add react-native-snap-swiper
 - [x] Jump to a card index 
 - [x] Swipe to the previous or next card
 
+## Props
+
+| Props    | type   | description                                                                                             | required | default                          |
+|:----------|:--------|:---------------------------------------------------------------------------------------------------------|:----------------------------------|:------------|
+| containerWidth    | number | width of swiper container | Dimensions.get('window').width |
+
 ## Usage
 
 ```jsx
