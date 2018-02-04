@@ -8,7 +8,7 @@ React native snap swiper for ios & android.
 
 ```bash
 npm install react-native-snap-swiper --save
-#OR
+OR
 yarn add react-native-snap-swiper
 ```
 
