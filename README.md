@@ -46,6 +46,11 @@ yarn add react-native-snap-swiper
 | onIndexChanged | function(index:number) | animtion end callback | fasle | ()=>{} |
 | children | array | array of react-native elements,must more than 5 | true | [] |
 
+## methods
+
+| Props    | type   | description |
+|:----------|:--------|:------------- |
+
 ## Usage
 
 ```jsx
