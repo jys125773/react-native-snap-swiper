@@ -48,8 +48,11 @@ yarn add react-native-snap-swiper
 
 ## methods
 
-| Props    | type   | description |
-|:----------|:--------|:------------- |
+| methods    | description |
+|:----------|:------------- |
+| animateToIndex(index,animated) | animate to index with animation or not |
+| goNext() | aniamte to next index |
+| goPre() | animate to pre index |
 
 ## Usage
 
