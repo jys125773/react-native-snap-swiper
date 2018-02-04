@@ -28,7 +28,7 @@ yarn add react-native-snap-swiper
 
 | Props    | type   | description                                                                                             | required | default                          |
 |:----------|:--------|:---------------------------------------------------------------------------------------------------------|:----------------------------------|:------------|
-| containerWidth    | number | width of swiper container | Dimensions.get('window').width |
+| containerWidth    | number | width of swiper container | false | Dimensions.get('window').width |
 
 ## Usage
 
